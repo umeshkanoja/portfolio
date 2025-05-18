@@ -1,6 +1,11 @@
-import { Box, Typography, Card, CardContent, Chip, Stack, Grid, IconButton, Avatar } from '@mui/material';
+import { Box, Typography, Card, CardContent, Chip, Stack, Grid, IconButton } from '@mui/material';
 import { Work, LocationOn, CalendarToday } from '@mui/icons-material';
 import AnimatedSection from './AnimatedSection';
+
+// Import company logos
+import salesforceLogo from '../assets/images/company-logos/salesforce.png';
+import amazonLogo from '../assets/images/company-logos/amazon.png';
+import microsoftLogo from '../assets/images/company-logos/microsoft.png';
 
 interface ExperienceItem {
   company: string;
@@ -9,7 +14,7 @@ interface ExperienceItem {
   location: string;
   description: string[];
   technologies: string[];
-  logoUrl?: string;
+  logoUrl: string;
 }
 
 const experiences: ExperienceItem[] = [
@@ -25,7 +30,7 @@ const experiences: ExperienceItem[] = [
       "Collaborating with cross-functional teams to deliver high-quality software"
     ],
     technologies: ["Java", "Spring Framework", "Cloud Technologies", "Enterprise Software", "Team Leadership"],
-    logoUrl: `${process.env.PUBLIC_URL}/company-logos/salesforce.png`
+    logoUrl: salesforceLogo
   },
   {
     company: "Amazon",
@@ -39,7 +44,7 @@ const experiences: ExperienceItem[] = [
       "Integrated critical Address Validation protocol using postcard OTP in the seller registration flow, decreasing the auto-block rate from 27.7% to 1.8%"
     ],
     technologies: ["AWS", "Java", "Python", "Microservices", "Machine Learning"],
-    logoUrl: `${process.env.PUBLIC_URL}/company-logos/amazon.png`
+    logoUrl: amazonLogo
   },
   {
     company: "Microsoft",
@@ -55,7 +60,7 @@ const experiences: ExperienceItem[] = [
       "Reduced on-call investigation time from ~25 mins to ~5 mins by creating an efficient log fetching tool"
     ],
     technologies: ["C#", ".NET", "Azure", "Windows", "Android", "iOS"],
-    logoUrl: `${process.env.PUBLIC_URL}/company-logos/microsoft.png`
+    logoUrl: microsoftLogo
   }
 ];
 
