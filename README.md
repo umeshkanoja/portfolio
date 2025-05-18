@@ -1,46 +1,107 @@
-# Getting Started with Create React App
+# Umesh Kanoja - Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and Material-UI, showcasing my professional experience and technical skills.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- Clean and professional design using Material-UI components
+- Responsive layout that works on all devices
+- Sections for:
+  - Professional summary
+  - Work experience at Salesforce, Amazon, and Microsoft
+  - Technical skills with visual progress indicators
+  - Contact information and social links
 
-### `npm start`
+## 💻 Featured Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Basic Ledger Service
+A financial operations REST API service that provides:
+- Account creation and management
+- Deposit and fund transfer capabilities
+- Balance checking functionality
+- Built with JDK 17, Spring Boot
+- Supports Docker deployment
+- Includes Postman collection for API testing
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Document Q&A Chatbot
+An intelligent document interaction system featuring:
+- PDF document upload and processing
+- Natural language query processing
+- Context-aware responses
+- Built with React/Vite frontend and Django backend
+- Uses Langchain for NLP and PostgreSQL with pgvector
+- JWT authentication for security
 
-### `npm test`
+### OCR API
+- Simple yet powerful OCR service built with FastAPI
+- Integrates Tesseract OCR for text extraction from images
+- RESTful API design for easy integration
+- Supports multiple image formats
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- React 18
+- TypeScript
+- Material-UI v5
+- React Scripts
+- Modern CSS-in-JS styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Installation
 
-### `npm run eject`
+1. Clone the repository:
+```bash
+git clone https://github.com/umeshkanoja/portfolio.git
+cd portfolio
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📝 Available Scripts
 
-## Learn More
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from create-react-app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+portfolio/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Profile.tsx
+│   │   ├── Experience.tsx
+│   │   └── Skills.tsx
+│   ├── App.tsx
+│   └── index.tsx
+└── package.json
+```
+
+## 🌐 Contact
+
+- Email: umeshkanoja26@gmail.com
+- LinkedIn: [linkedin.com/in/umeshkanoja](https://www.linkedin.com/in/umeshkanoja/)
+- GitHub: [github.com/umeshkanoja](https://github.com/umeshkanoja)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
