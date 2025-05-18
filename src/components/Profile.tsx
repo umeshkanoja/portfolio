@@ -1,6 +1,7 @@
 import { Box, Typography, Paper, Grid, Avatar, Chip, Stack, IconButton } from '@mui/material';
 import { GitHub, LinkedIn, Email, LocationOn, Timer, School } from '@mui/icons-material';
 import AnimatedSection from './AnimatedSection';
+import profilePhoto from '../assets/images/profile-photo.jpg';
 
 const Profile = () => {
   return (
@@ -54,7 +55,7 @@ const Profile = () => {
             </Grid>
             <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Avatar 
-                src="/profile-photo.jpg"
+                src={profilePhoto}
                 alt="Umesh Kanoja"
                 sx={{ 
                   width: { xs: 200, md: 250 }, 
